@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+*,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.splashed {
+  background: url("../img/crypto.jpg") bottom center no-repeat;
+  background-size: cover;
+  color: #a5a1a1;
+  margin-bottom: 0 !important;
+  overflow: hidden;
+  padding-top: 10em !important;
+  padding-bottom: 12em !important;
+  position: relative;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.splashed:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.big-text-1 {
+  padding: 2.3rem;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  place-content: center;
+  text-transform: capitalize;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=banner.css.map */

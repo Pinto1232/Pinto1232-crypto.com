@@ -1,0 +1,16 @@
+.home-main {
+  height: 100vh;
+}
+
+.search-top {
+  background: #eaeaea;
+  width: 82%;
+  padding: 10px;
+  margin-top: 18px;
+  z-index: 200;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=home.css.map */

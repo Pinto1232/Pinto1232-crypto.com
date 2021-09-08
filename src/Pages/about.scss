@@ -1,0 +1,13 @@
+.about-main {
+    height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content;
+    grid-gap: 5rem;
+    place-items: center;
+    padding: 2rem;
+    margin: 2rem;
+}
